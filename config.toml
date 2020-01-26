@@ -3,7 +3,16 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "docsy" 
 
+# Language settings
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
+[languages]
+[languages.en]
+title = "Docsy"
+description = "Docsy does docs"
+languageName ="English"
 
 [markup]
   [markup.goldmark]
@@ -103,4 +112,4 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
     identifier = "aaa"
     name = "about hugo"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/aaa/"
+    url = "docs/aaa"
