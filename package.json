@@ -1,0 +1,23 @@
+{
+  "name": "doxdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lunr": "^2.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herkommer/doxdemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herkommer/doxdemo/issues"
+  },
+  "homepage": "https://github.com/herkommer/doxdemo#readme"
+}

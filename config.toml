@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "DevOps Core"
 theme = "docsy" 
 
 # Language settings
@@ -10,8 +10,7 @@ defaultContentLanguageInSubdir = false
 
 [languages]
 [languages.en]
-title = "Docsy"
-description = "Docsy does docs"
+description = "Internal documentation"
 languageName ="English"
 
 [markup]
@@ -22,7 +21,7 @@ languageName ="English"
 # Everything below this are Site Params
 
 [params]
-copyright = "The Docsy Authors"
+copyright = "The DevOps Core Authors"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -47,7 +46,7 @@ github_project_repo = "https://github.com/google/docsy"
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # User interface configuration
 [params.ui]
@@ -106,10 +105,3 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
 
-[menu]
-
-  [[menu.main]]
-    identifier = "aaa"
-    name = "about hugo"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "docs/aaa"
