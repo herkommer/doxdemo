@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "lunr": "^2.3.8"
   },
   "devDependencies": {},
